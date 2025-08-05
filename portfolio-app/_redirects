@@ -1,0 +1,10 @@
+# Netlify redirects file
+# This file handles client-side routing and redirects
+
+# Redirect common routes
+/projects   /projects.html   200
+/home       /index.html      200
+
+# Handle 404s by serving the home page
+/*          /index.html      404
+
